@@ -1,0 +1,32 @@
+# Building parameters 
+floors=30 
+
+# Passengers to add to floors 
+add_passenger 1 25 6 Standard 30
+add_passenger 2 2 28 VIP 10
+add_passenger 3 7 15 Freight 20
+add_passenger 4 4 20 Glass 15
+
+# Elevator types 
+elevator_type StandardElevator 10 40 
+elevator_type ExpressElevator 8 25 
+elevator_type FreightElevator 5 20 
+elevator_type GlassElevator 6 15
+
+# Percentage of passenger requests for each elevator type 
+request_percentage StandardElevator 70 
+request_percentage ExpressElevator 20 
+request_percentage FreightElevator 5 
+request_percentage GlassElevator 5 
+
+# Percentage of passenger requests for each passenger type 
+passenger_request_percentage Standard 70 
+passenger_request_percentage VIP 10 
+passenger_request_percentage Freight 15 
+passenger_request_percentage Glass 5 
+
+# Number of elevators in the system 
+number_of_elevators 8 
+
+# Run simulation for 60 iterations 
+run_simulation 60
